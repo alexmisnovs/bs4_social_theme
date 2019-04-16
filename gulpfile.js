@@ -8,7 +8,7 @@ const browserSync = require('browser-sync').create();
 // clean assets
 // Clean assets
 function clean() {
-    return del(["./dist/assets/"]);
+    return del(["./dist/assets/", "!./dist/assets/img"]);
 }
 
 // compile sass and inject into browser
