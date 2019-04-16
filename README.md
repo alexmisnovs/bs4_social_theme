@@ -1,4 +1,2 @@
-# bs4starter
+# Simple Theme with Bootstrap and sass
 
-npm install to install the dependencies
-npm start to build
