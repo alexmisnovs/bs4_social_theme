@@ -50,10 +50,21 @@ body {
 
 }
 
-#explore-section {
+#explore-section,
+#share-section {
     .fa {
         color: #fff;
         background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+#create-section {
+    .fa {
+        color: $primary-color;
+        background: #fff;
         padding: 4px;
         border-radius: 5px;
         font-size: $icon-size;
